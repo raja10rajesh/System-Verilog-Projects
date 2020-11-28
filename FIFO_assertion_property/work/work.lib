@@ -1,0 +1,64 @@
+timestamp=1606547362689
+
+[~A]
+CUSP_Counter=1
+LastVerilogToplevel=tester_fifo
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*1651*3842
+
+[~MFT]
+0=8|0work.mgf|3842|0
+1=6|1work.mgf|13018|0
+3=12|3work.mgf|16386|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|c73a565f2ade592f8ac1c68f484c92167a4f6f9c216680218ed85dcba704672e
+
+[UnitScopePackage_1]
+A/UnitScopePackage_1=22|../design.sv|0|1*13018
+BinL64/UnitScopePackage_1=3*16165
+CUSP=1
+R=../design.sv|0
+SLP=3*16386
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|fab98aed36991913255ea6c02c9bb53e4dc7b1d77717ad53c996fab9a47702eb1e706040842a9f43b1c0fb047edc8ce3
+
+[binding_module]
+A/binding_module=22|../binding_file.sv|3|1*9980
+BinL64/binding_module=3*12000
+R=../binding_file.sv|3
+SLP=3*12464
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|a92294088065aee3408d8ab1738b8ac4a23392336fd2699aacb467e4ada99301d9c3dad1db946357630fc7a010ce2f48
+
+[fifo]
+A/fifo=22|../design.sv|1|1*406
+BinL64/fifo=3*174
+R=../design.sv|1
+SLP=3*2302
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|af9652c152b2c954af45fb87fa26cfa5b9828e91a885d8ad9c807a3d7077fb7a
+
+[fifo_property]
+A/fifo_property=22|../fifo_property.sv|3|1*3541
+BinL64/fifo_property=3*3192
+R=../fifo_property.sv|3
+SLP=3*8187
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|d5f5e6ad615e1109a945b4272bc7d23e1d39734c26e55f030ecf68536739b5753f18219dc6964564f1c0360e45b06f57
+
+[tester_fifo]
+A/tester_fifo=22|../testbench.sv|10|1*10780
+BinL64/tester_fifo=3*12565
+CUSP=UnitScopePackage_1
+R=../testbench.sv|10
+SLP=3*14622
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|396572275fc147a3c2f6e075ae80ef66b76bbc4bcfffc87d848b07d07deb399965bbf83f22dfc0bc9e3b7e5d83afc7fe
+
+[~U]
+$root=12|0*0|
+UnitScopePackage_1=12|0*1433||0x40200000
+binding_module=12|0*968||0x10
+fifo=12|0*214|
+fifo_property=12|0*584|
+tester_fifo=12|0*1219||0x10

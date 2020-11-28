@@ -1,0 +1,56 @@
+{
+    "_vcs_DPI_package": [
+        "_vcs_DPI_package",
+        "uM9F1",
+        "module",
+        1
+    ],
+    "vcs_paramclassrepository": [
+        "vcs_paramclassrepository",
+        "hEeZs",
+        "module",
+        2
+    ],
+    "_vcs_unit__3552766025": [
+        "_vcs_unit__3552766025",
+        "RD4iC",
+        "module",
+        3
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        4
+    ],
+    "uvm_pkg": [
+        "uvm_pkg",
+        "zr7M1",
+        "module",
+        5
+    ],
+    "eth32bit": [
+        "eth32bit",
+        "YrQ15",
+        "module",
+        6
+    ],
+    "eth_if": [
+        "eth_if",
+        "W3h1T",
+        "module",
+        7
+    ],
+    "tbench_top": [
+        "tbench_top",
+        "Mk7In",
+        "module",
+        8
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        9
+    ]
+}

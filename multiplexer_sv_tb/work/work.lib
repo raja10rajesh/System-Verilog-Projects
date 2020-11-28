@@ -1,0 +1,122 @@
+timestamp=1606547423884
+
+[~A]
+LastVerilogToplevel=tb_top
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*7971*9938
+
+[~MFT]
+0=20|0work.mgf|9938|0
+1=12|1work.mgf|63996|0
+3=24|3work.mgf|67914|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|c73a565f2ade592f8ac1c68f484c9216a956f3b0c170a1fb50e41c6f1705fcc5
+
+[\std::mailbox#(singular) \]
+A/\std::mailbox#(singular) \=22|||1*10491
+AICT=411276140462080
+BinL64/\std::mailbox#(singular) \=3*10805
+CLI=0*1786
+SLP=3*12710
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|1e719b6ecd2368499b5e157e46e8cd709306316c26aae8d752b72b80361805e1e056f1f7172a1dd6f2b6ee26c3e1f5a089850471ddc7029c5c66a982862f4a85
+
+[driver]
+A/driver=22|../driver.sv|1|1*32216
+AICT=411276140462592
+BinL64/driver=3*30994
+CLI=0*4051
+R=../driver.sv|1
+SLP=3*35466
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|32a8809e0c82d5e52151c5a0d1b53825fa62fd393c79322223a827bac8ee4f63
+
+[environment]
+A/environment=22|../environment.sv|6|1*53583
+AICT=411276140463616
+BinL64/environment=3*56223
+CLI=0*7136
+R=../environment.sv|6
+SLP=3*60935
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|f86a66fa2f5cdf242cee6b26edbbfa260bdabb96e9080c0d7927e954445596539fda4b317b2b9c2312cb611541e1f606
+
+[generator]
+A/generator=22|../generator.sv|1|1*14307
+AICT=411276140461568
+BinL64/generator=3*13692
+CLI=0*2946
+R=../generator.sv|1
+SLP=3*22078
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|868a022443c89e9f5ff3df3152251b4d1393fddf47876bc361e7a33e2c7578ef0206fa9a35e90814411bba45cb443dde
+
+[intf]
+A/intf=22|../interface.sv|1|1*1460
+BinL64/intf=3*811
+R=../interface.sv|1
+SLP=3*1018
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|544a6d17610eea77507bba196979802f9299582f68ff72295ac6e67fb07a057b
+
+[monitor]
+A/monitor=22|../monitor.sv|1|1*39377
+AICT=411276140462848
+BinL64/monitor=3*39503
+CLI=0*5067
+R=../monitor.sv|1
+SLP=3*43839
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|95ff40020058ee65c420aa5e779914f826527262ddaa47cb266f3a3c4d9b973a70f8f816ced0ce41445050f8391785c0
+
+[mux]
+A/mux=22|../design.sv|2|1*374
+BinL64/mux=3*174
+R=../design.sv|2
+SLP=3*615
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|97262232024e18459c438da5de39699b90b40cbaf91ae257fe9c5f004056f6af
+
+[scoreboard]
+A/scoreboard=22|../scoreboard.sv|1|1*46560
+AICT=411276140463360
+BinL64/scoreboard=3*47898
+CLI=0*6070
+R=../scoreboard.sv|1
+SLP=3*52081
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|cb8490c56fdb537d2557a00a58b17e11d8626a3683e7935cfb3d638038a680416314f4f8be1b66734572af1520941e5d
+
+[tb_top]
+A/tb_top=22|../testbench.sv|8|1*63996
+BinL64/tb_top=3*67477
+R=../testbench.sv|8
+SLP=3*67914
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|1f59f708731c3446af3d42ad30f3efdfa04c2197cd13f1c190cba8dd446b4d58
+
+[test]
+A/test=22|../random_test.sv|3|1*62691
+BinL64/test=3*66032
+R=../random_test.sv|3
+SLP=3*66853
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|e1f76c805e2c0a9a3d36a8be8882f2062ec20d73a3417502d173b84d8c52c4c6
+
+[transaction]
+A/transaction=22|../transaction.sv|1|1*2799
+AICT=411276140459776
+BinL64/transaction=3*1086
+CLI=0*1367
+R=../transaction.sv|1
+SLP=3*5812
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|e7c58dcfddb8de4c8440dd51a2d497d1fcb4642d0ac36a420143c757ad4eab6afa7e449134817dc1656b64c958d42f2b
+
+[~U]
+$root=12|0*0|
+\std::mailbox#(singular) \=12|||0x10030000
+driver=12|0*3444||0x30000
+environment=12|0*6472||0x30000
+generator=12|0*2199||0x30000
+intf=12|0*512||0x80000
+monitor=12|0*4459||0x30000
+mux=12|0*310|
+scoreboard=12|0*5475||0x30000
+tb_top=12|0*7789||0x10
+test=12|0*7606||0x4000
+transaction=12|0*781||0x30000

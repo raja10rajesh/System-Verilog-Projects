@@ -1,0 +1,77 @@
+$date
+Sat Nov 28 02:10:24 2020
+$end
+$version
+Riviera-PRO Version 2020.04.130.7729
+$end
+$timescale
+1 ns
+$end
+
+$scope module tb_top $end
+
+$scope module i_intf $end
+$var reg 4 ! a [3:0] $end
+$var reg 4 " b [3:0] $end
+$var reg 1 # sel $end
+$var reg 4 $ out [3:0] $end
+$upscope $end
+
+
+$scope module t1 $end
+$upscope $end
+
+
+$scope module DUT $end
+$var wire 1 % sel $end
+$var wire 4 & a [3:0] $end
+$var wire 4 ' b [3:0] $end
+$var reg 4 ( out [3:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+bx !
+bx "
+x#
+bx $
+x%
+bx &
+bx '
+bx (
+$end
+#10
+b1100 !
+b1110 "
+0#
+0%
+b1110 '
+b1100 &
+b1110 (
+b1110 $
+#70
+b1011 !
+b0 "
+1#
+1%
+b0 '
+b1011 &
+b1011 (
+b1011 $
+#130
+b1101 !
+b10 "
+b10 '
+b1101 &
+b1101 (
+b1101 $
+#190
+b1011 !
+b11 "
+b11 '
+b1011 &
+b1011 (
+b1011 $
+#250

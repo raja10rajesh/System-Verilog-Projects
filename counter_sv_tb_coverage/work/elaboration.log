@@ -1,0 +1,71 @@
+Riviera-PRO 2020.04.130.7729(Linux64) 2020-11-28 02:08:47
+
+Elaboration top modules:
+Verilog Module                tb_top
+SystemVerilog Class           environment
+SystemVerilog Class           *base_class
+SystemVerilog Class           driver
+SystemVerilog Class           generator
+SystemVerilog Class           monitor
+SystemVerilog Class           scoreboard
+SystemVerilog Class           \std::mailbox#(singular) \
+SystemVerilog Class           transaction
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Verilog Module                                                | Library | Info | Compiler Version      | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------------------
+tb_top                                                        | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+counter8b                                                     | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+\intf.DRIVER.driver_cb \                                      | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+\intf.MONITOR.monitor_cb \                                    | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+-----------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------
+SystemVerilog Interface                                       | Library | Info | Compiler Version      | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------------------
+intf                                                          | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+-----------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------
+SystemVerilog Class                                           | Library | Info | Compiler Version      | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------------------
+environment                                                   | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+*base_class                                                   | vl      |      | 2020.04.130 (Linux64) | <unavailable>
+driver                                                        | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+generator                                                     | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+monitor                                                       | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+scoreboard                                                    | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+\std::mailbox#(singular) \                                    | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+transaction                                                   | work    | SVA  | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+\monitor covergroup::counter_cover \                          | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+\monitor::covergroup::counter_cover coverpoint::input_ld_en \ | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+\monitor::covergroup::counter_cover coverpoint::input_en \    | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+\monitor::covergroup::counter_cover coverpoint::input_updwn \ | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+-----------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------
+SystemVerilog Modport                                         | Library | Info | Compiler Version      | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------------------
+\intf \\intf.DRIVER \\ \                                      | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+\intf \\intf.MONITOR \\ \                                     | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+-----------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------
+SystemVerilog Program                                         | Library | Info | Compiler Version      | Compilation Options
+-----------------------------------------------------------------------------------------------------------------------------------
+test                                                          | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+-----------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Library                                                       | Comment
+-----------------------------------------------------------------------------------------------------------------------------------
+vl                                                            | Standard Verilog library
+work                                                          | None
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access+r
+
+
+The performance of simulation is reduced. Version EDU Edition

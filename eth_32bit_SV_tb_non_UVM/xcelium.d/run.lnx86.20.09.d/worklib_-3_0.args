@@ -1,0 +1,21 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-RUNMODE
+-uvmnocdnsextra
+-I_INCDIR
+/xcelium20.09/tools//methodology/UVM/CDNS-1.2/sv/src
+-DEFINE
+USE_PARAMETERIZED_WRAPPER
+-UPDATE
+-CDSLIB
+./xcelium.d/run.lnx86.20.09.d/cdsrun.lib
+-HDLVAR
+./xcelium.d/run.lnx86.20.09.d/hdlrun.var
+-work
+worklib
+-UVMNOSINGLESTEP
+-define
+UVM_PLI
+/xcelium20.09/tools//methodology/UVM/CDNS-1.2/sv/src/uvm_pkg.sv

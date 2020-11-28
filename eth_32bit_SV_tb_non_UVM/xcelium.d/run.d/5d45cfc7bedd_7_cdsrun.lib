@@ -1,0 +1,2 @@
+SOFTINCLUDE /xcelium20.09/tools/inca/files/cds.lib
+define worklib ../worklib

@@ -1,0 +1,34 @@
+Riviera-PRO 2020.04.130.7729(Linux64) 2020-11-28 02:09:23
+
+Elaboration top modules:
+Verilog Module                binding_module
+Verilog Module                tester_fifo
+SystemVerilog Package         UnitScopePackage_1
+
+
+---------------------------------------------------------------------------------------------
+Verilog Module          | Library | Info | Compiler Version      | Compilation Options
+---------------------------------------------------------------------------------------------
+binding_module          | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+tester_fifo             | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+fifo                    | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+fifo_property           | work    | SVA  | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+SystemVerilog Package   | Library | Info | Compiler Version      | Compilation Options
+---------------------------------------------------------------------------------------------
+UnitScopePackage_1      | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Library                 | Comment
+---------------------------------------------------------------------------------------------
+work                    | None
+---------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access+r
+
+
+The performance of simulation is reduced. Version EDU Edition

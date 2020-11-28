@@ -1,0 +1,48 @@
+timestamp=1606547459470
+
+[~A]
+CUSP_Counter=1
+LastVerilogToplevel=tester_fifo
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*978*2897
+
+[~MFT]
+0=6|0work.mgf|2897|0
+1=4|1work.mgf|10565|0
+3=8|3work.mgf|15231|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|c73a565f2ade592f8ac1c68f484c92163ec180ad656c4110ce8c9af904ead3c1
+
+[UnitScopePackage_1]
+A/UnitScopePackage_1=22|../design.sv|0|1*10565
+BinL64/UnitScopePackage_1=3*15010
+CUSP=1
+R=../design.sv|0
+SLP=3*15231
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|fab98aed36991913255ea6c02c9bb53e4dc7b1d77717ad53c996fab9a47702eb6adca1798a27a745cf8049a760a39d84
+
+[fifo]
+A/fifo=22|../design.sv|1|1*390
+BinL64/fifo=3*174
+R=../design.sv|1
+SLP=3*2101
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|af9652c152b2c954af45fb87fa26cfa52d1f2a505b8f557e463c6ed55f6b21a1
+
+[tester_fifo]
+A/tester_fifo=22|../testbench.sv|6|1*3056
+BinL64/tester_fifo=3*2983
+CUSP=UnitScopePackage_1
+R=../testbench.sv|6
+SLP=3*9755
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|396572275fc147a3c2f6e075ae80ef66b76bbc4bcfffc87d848b07d07deb39998d61ef87831debf29459e5c4408265fb
+
+[~U]
+$root=12|0*0|
+UnitScopePackage_1=12|0*760||0x40200000
+fifo=12|0*182|
+tester_fifo=12|0*468||0x10

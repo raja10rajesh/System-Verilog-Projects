@@ -1,0 +1,33 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-INPUT
+"@source /xcelium20.09/tools//methodology/UVM/CDNS-1.2/sv/files/tcl/uvm_sim.tcl"
+-MESSAGES
+-uvmhome
+/xcelium20.09/tools//methodology/UVM/CDNS-1.2/sv
+-sv_lib
+/xcelium20.09/tools//methodology/UVM/CDNS-1.2/sv/lib/libuvmpli.so
+-UNBUFFERED
+-RUN
+-SV_LIB
+/xcelium20.09/tools//methodology/UVM/CDNS-1.2/sv/lib/libuvmdpi.so
++EMGRLOG
+xrun.log
+-XLSTIME
+1606547298
+-XLKEEP
+-XLMODE
+./xcelium.d/run.lnx86.20.09.d
+-RUNMODE
+-CDSLIB
+./xcelium.d/run.lnx86.20.09.d/cds.lib
+-HDLVAR
+./xcelium.d/run.lnx86.20.09.d/hdl.var
+-XLNAME
+xrun
+-XLVERSION
+"TOOL:	xrun	20.09-s003"
+-XLNAME
+./xcelium.d/run.lnx86.20.09.d/5d45cfc7bedd_7

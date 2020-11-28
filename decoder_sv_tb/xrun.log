@@ -1,0 +1,83 @@
+xrun: 20.09-s003: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun	20.09-s003: Started on Nov 28, 2020 at 02:10:05 EST
+xrun
+	-Q
+	-unbuffered
+	-timescale 1ns/1ns
+	-sysv
+	-access +rw
+	design.sv
+	testbench.sv
+	Top level design units:
+		$unit_0x67f934e9
+		tb_top
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+        $fatal("MISMATCH:: expected:%0d-- Received :%0d",(1<<trans.in),trans.out);
+                                                       |
+xmelab: *W,STRINT (./scoreboard.sv,16|55): String literal argument supplied to integer parameter.
+        $fatal("MISMATCH:: expected:16'bz -- Received :%0d",(1<<trans.in));
+                                                          |
+xmelab: *W,STRINT (./scoreboard.sv,21|58): String literal argument supplied to integer parameter.
+        $fatal("Gen::trans randomization failed");
+                                               |
+xmelab: *W,STRINT (./generator.sv,16|47): String literal argument supplied to integer parameter.
+Loading snapshot worklib.tb_top:sv .................... Done
+SVSEED default: 1
+xmsim: *W,RNDXCELON: A newer version of the SystemVerilog constraint solver is being used which has better support for array-solving, new solve-order mechanism, and seed stability enhancements..
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /xcelium20.09/tools/xcelium/files/xmsimrc
+xcelium> run
+test no: 1
+-------------------------
+- [ Generator ]  in = 0, en = 1, out = 0 
+- [ Driver ]     in = 0, en = 1, out = 0 
+- [ Monitor ]    in = 0, en = 1, out = 1 
+- [ Scoreboard ] in = 0, en = 1, out = 1 
+MATCHED::WORKING FINE
+
+
+-------------------------
+test no: 2
+-------------------------
+- [ Generator ]  in = 11, en = 1, out = 0 
+- [ Driver ]     in = 11, en = 1, out = 1 
+- [ Monitor ]    in = 11, en = 1, out = 1000 
+- [ Scoreboard ] in = 11, en = 1, out = 1000 
+MATCHED::WORKING FINE
+
+
+-------------------------
+test no: 3
+-------------------------
+- [ Generator ]  in = 110, en = 0, out = 0 
+- [ Driver ]     in = 110, en = 0, out = 1000 
+- [ Monitor ]    in = 110, en = 0, out = 0 
+- [ Scoreboard ] in = 110, en = 0, out = 0 
+Not enable, Output Zero
+
+
+-------------------------
+test no: 4
+-------------------------
+- [ Generator ]  in = 11, en = 1, out = 0 
+- [ Driver ]     in = 11, en = 1, out = 0 
+- [ Monitor ]    in = 11, en = 1, out = 1000 
+- [ Scoreboard ] in = 11, en = 1, out = 1000 
+MATCHED::WORKING FINE
+
+
+-------------------------
+test no: 5
+-------------------------
+- [ Generator ]  in = 111, en = 1, out = 0 
+- [ Driver ]     in = 111, en = 1, out = 1000 
+- [ Monitor ]    in = 111, en = 1, out = 10000000 
+- [ Scoreboard ] in = 111, en = 1, out = 10000000 
+MATCHED::WORKING FINE
+
+
+-------------------------
+Simulation complete via $finish(1) at time 400 NS + 1
+./random_test.sv:13     #100 $finish;
+xcelium> exit
+TOOL:	xrun	20.09-s003: Exiting on Nov 28, 2020 at 02:10:07 EST  (total: 00:00:02)

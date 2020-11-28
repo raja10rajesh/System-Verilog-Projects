@@ -1,0 +1,194 @@
+timestamp=1606547327192
+
+[~A]
+LastVerilogToplevel=tb_top
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*14282*17049
+
+[~MFT]
+0=32|0work.mgf|17049|0
+1=20|1work.mgf|107278|0
+3=40|3work.mgf|99800|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|c73a565f2ade592f8ac1c68f484c9216ee6a5fe593ef1c83027b166906d7a7ee
+
+[\intf \\intf.DRIVER \\ \]
+A/\intf \\intf.DRIVER \\ \=22|../interface.sv|30|1*9932
+BinL64/\intf \\intf.DRIVER \\ \=3*5140
+R=../interface.sv|30
+SLP=3*5367
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|7b5ae93d594e5587b1d016483bcbdcdc8d053855f63c0754851441127ef61466dd3967692a8ea59d383d537e629e2525
+
+[\intf \\intf.MONITOR \\ \]
+A/\intf \\intf.MONITOR \\ \=22|../interface.sv|33|1*13759
+BinL64/\intf \\intf.MONITOR \\ \=3*5985
+R=../interface.sv|33
+SLP=3*6213
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|142c4f9b1cc6f38bc9c08a260335ac09094c94157f11dc477c6d882a52f8145e03663d74dd1ffd94aab0b907a1925dd7
+
+[\intf.DRIVER.driver_cb \]
+A/\intf.DRIVER.driver_cb \=22|../interface.sv|30|1*12118
+BinL64/\intf.DRIVER.driver_cb \=3*5569
+R=../interface.sv|30
+SLP=3*5796
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|54f01b6f8632d3af7cb5341890d09d472d202c61d4b8896a5c62dac37a765bf36690495b6afe9e9f4ff25615aba759dbea614909e4dbaaccf6eb4166a3dce1a6
+
+[\intf.MONITOR.monitor_cb \]
+A/\intf.MONITOR.monitor_cb \=22|../interface.sv|33|1*16008
+BinL64/\intf.MONITOR.monitor_cb \=3*6417
+R=../interface.sv|33
+SLP=3*6646
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|5cf41a5dcdfbd867a43b5f4731e42c0b522d5817b2b0a98a2c20a949d07a0fedd0dd69f25a0ea3e7e0c909e9cc0c39817d0dc1b00faab471ab1b0bace4c751bd
+
+[\monitor covergroup::counter_cover \]
+A/\monitor covergroup::counter_cover \=22|../monitor.sv|9|1*69795
+AICT=411276115680512
+BinL64/\monitor covergroup::counter_cover \=3*66178
+CLI=0*8369
+R=../monitor.sv|9
+SLP=3*69052
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|91c90434c378ad15432117d4d0aa6145551464037454ccd291ff5cbcd7e50d4e250eb6fbac5813fc04034fe96efad088c0e4770233ff631f3faaf2d1f51545e5
+
+[\monitor::covergroup::counter_cover coverpoint::input_en \]
+A/\monitor::covergroup::counter_cover coverpoint::input_en \=22|../monitor.sv|13|1*80693
+AICT=411276115681024
+BinL64/\monitor::covergroup::counter_cover coverpoint::input_en \=3*73882
+CLI=0*10353
+R=../monitor.sv|13
+SLP=3*75354
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|a6d43871a693eb78bcfd1d1678de783a805119eab51310d36da990835602864ffc07b8de4cccfa61b04607c0861da80898b188bc182b6742cd7cc932ca2fc07da29e607998ebbc985ab05232178bd108
+
+[\monitor::covergroup::counter_cover coverpoint::input_ld_en \]
+A/\monitor::covergroup::counter_cover coverpoint::input_ld_en \=22|../monitor.sv|12|1*76506
+AICT=411276115680768
+BinL64/\monitor::covergroup::counter_cover coverpoint::input_ld_en \=3*71213
+CLI=0*9380
+R=../monitor.sv|12
+SLP=3*72693
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|a6d43871a693eb78bcfd1d1678de783a805119eab51310d36da990835602864ffc07b8de4cccfa61b04607c0861da808cf6087d6cba7451c0eff7458cc5b4498879fb22b6e741ae92bff3ff549ff9fce
+
+[\monitor::covergroup::counter_cover coverpoint::input_updwn \]
+A/\monitor::covergroup::counter_cover coverpoint::input_updwn \=22|../monitor.sv|14|1*84841
+AICT=411276115681280
+BinL64/\monitor::covergroup::counter_cover coverpoint::input_updwn \=3*76525
+CLI=0*11332
+R=../monitor.sv|14
+SLP=3*78003
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|a6d43871a693eb78bcfd1d1678de783a805119eab51310d36da990835602864ffc07b8de4cccfa61b04607c0861da808e00ead3f09d2a05ec389536ebb5e58d99ba48ede75a7abbbefdd692ea10d83c1
+
+[\std::mailbox#(singular) \]
+A/\std::mailbox#(singular) \=22|||1*31228
+AICT=411276115679232
+BinL64/\std::mailbox#(singular) \=3*26188
+CLI=0*3857
+SLP=3*28093
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|1e719b6ecd2368499b5e157e46e8cd709306316c26aae8d752b72b80361805e1e056f1f7172a1dd6f2b6ee26c3e1f5a0a28e1f4c66059642ade23a562df8dfa6
+
+[counter8b]
+A/counter8b=22|../design.sv|3|1*374
+BinL64/counter8b=3*174
+R=../design.sv|3
+SLP=3*829
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|922f2444c295362ac4ec38e870aad66d05e29bf99304b72d20622cc7b33546eed6dfcad39547916658a3c7ad4b4e63d0
+
+[driver]
+A/driver=22|../driver.sv|1|1*54415
+AICT=411276115680000
+BinL64/driver=3*48345
+CLI=0*6200
+R=../driver.sv|1
+SLP=3*52857
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|32a8809e0c82d5e52151c5a0d1b53825ddb60c5ce658e5dc9aaf7bcfe37f6290
+
+[environment]
+A/environment=22|../environment.sv|6|1*96428
+AICT=411276115681792
+BinL64/environment=3*87501
+CLI=0*13430
+R=../environment.sv|6
+SLP=3*92342
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|f86a66fa2f5cdf242cee6b26edbbfa260bdabb96e9080c0d7927e95444559653255cffd85dfed0f4d99e444ac32c3960
+
+[generator]
+A/generator=22|../generator.sv|1|1*35044
+AICT=411276115678720
+BinL64/generator=3*29075
+CLI=0*5052
+R=../generator.sv|1
+SLP=3*38295
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|868a022443c89e9f5ff3df3152251b4d1393fddf47876bc361e7a33e2c7578efe36562a2c50a03393e2dc100c07603f5
+
+[intf]
+A/intf=22|../interface.sv|1|1*1893
+BinL64/intf=3*1172
+R=../interface.sv|1
+SLP=3*3481
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|544a6d17610eea77507bba196979802fbb5d0d9e18c3fc5e39e6815526184d8d
+
+[monitor]
+A/monitor=22|../monitor.sv|1|1*61721
+AICT=411276115680256
+BinL64/monitor=3*56898
+CLI=0*7247
+R=../monitor.sv|1
+SLP=3*61642
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|95ff40020058ee65c420aa5e779914f826527262ddaa47cb266f3a3c4d9b973ad56bd7d586892cc02715943c18e8c09b
+
+[scoreboard]
+A/scoreboard=22|../scoreboard.sv|1|1*89028
+AICT=411276115681536
+BinL64/scoreboard=3*79171
+CLI=0*12356
+R=../scoreboard.sv|1
+SLP=3*83306
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|cb8490c56fdb537d2557a00a58b17e11d8626a3683e7935cfb3d638038a68041b9998f6e8dd21e9580bd41bf881844ac
+
+[tb_top]
+A/tb_top=22|../testbench.sv|8|1*107278
+BinL64/tb_top=3*99084
+R=../testbench.sv|8
+SLP=3*99800
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|1f59f708731c3446af3d42ad30f3efdf55a8640c217cc677f4e4be948cba9170
+
+[test]
+A/test=22|../random_test.sv|3|1*105973
+BinL64/test=3*97638
+R=../random_test.sv|3
+SLP=3*98458
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|e1f76c805e2c0a9a3d36a8be8882f206c17b9ea1d7118f15b9792271aba68458
+
+[transaction]
+A/transaction=22|../transaction.sv|1|1*17738
+AICT=411276115676672
+BinL64/transaction=3*6839
+CLI=0*3316
+R=../transaction.sv|1
+SLP=3*16845
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|e7c58dcfddb8de4c8440dd51a2d497d1fcb4642d0ac36a420143c757ad4eab6a50697545c7f182a5b5ff5a2efbe3bac8
+
+[~U]
+$root=12|0*0|
+\intf \\intf.DRIVER \\ \=12|0*1002||0x80040000
+\intf \\intf.MONITOR \\ \=12|0*1751||0x80040000
+\intf.DRIVER.driver_cb \=12|0*1397||0x80000
+\intf.MONITOR.monitor_cb \=12|0*2151||0x80000
+\monitor covergroup::counter_cover \=12|0*7671||0x30000
+\monitor::covergroup::counter_cover coverpoint::input_en \=12|0*9807||0x80030000
+\monitor::covergroup::counter_cover coverpoint::input_ld_en \=12|0*8825||0x80030000
+\monitor::covergroup::counter_cover coverpoint::input_updwn \=12|0*10775||0x80030000
+\std::mailbox#(singular) \=12|||0x10030000
+counter8b=12|0*310|
+driver=12|0*5594||0x30000
+environment=12|0*12758||0x30000
+generator=12|0*4270||0x30000
+intf=12|0*556||0x80000
+monitor=12|0*6607||0x30000
+scoreboard=12|0*11759||0x30000
+tb_top=12|0*14094||0x10
+test=12|0*13911||0x4000
+transaction=12|0*2508||0x30000

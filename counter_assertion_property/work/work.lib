@@ -1,0 +1,53 @@
+timestamp=1606547474930
+
+[~A]
+LastVerilogToplevel=tester
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*1286*2917
+
+[~MFT]
+0=7|0work.mgf|2917|0
+1=5|1work.mgf|7291|0
+3=10|3work.mgf|10186|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|c73a565f2ade592f8ac1c68f484c92167f03391439dcaddec35efefa578deb30
+
+[binding_module]
+A/binding_module=22|../binding_file.sv|3|1*6491
+BinL64/binding_module=3*8087
+R=../binding_file.sv|3
+SLP=3*8551
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|a92294088065aee3408d8ab1738b8ac4a23392336fd2699aacb467e4ada9930195c2ec8cd20885fe036b26cd1195f7fc
+
+[counter8b]
+A/counter8b=22|../design.sv|3|1*390
+BinL64/counter8b=3*174
+R=../design.sv|3
+SLP=3*1163
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|922f2444c295362ac4ec38e870aad66d05e29bf99304b72d20622cc7b33546eea7dbdc80431522212bedd4c636508f81
+
+[counter_property]
+A/counter_property=22|../counter_property.sv|3|1*2416
+BinL64/counter_property=3*1568
+R=../counter_property.sv|3
+SLP=3*5569
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|06d39e5ac168b6bfbfd2b14df1e0304d679e218afe054ecb68e7e8a789ef6035898789441174dce181eed0ece3ca0139
+
+[tester]
+A/tester=22|../testbench.sv|6|1*7291
+BinL64/tester=3*8653
+R=../testbench.sv|6
+SLP=3*10186
+Version=2020.04.130 (Linux64)|00000019789cd32dc9cc4d2d4e4ecc495530cc2bd6076205dde232a36c4b0071ae0864|52e10d78c01e4448d16c7c22bb854cfe60ea75d9f489be098ed6675abf972b93
+
+[~U]
+$root=12|0*0|
+binding_module=12|0*851||0x10
+counter8b=12|0*214|
+counter_property=12|0*545|
+tester=12|0*1101||0x10

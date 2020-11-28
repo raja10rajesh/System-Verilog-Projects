@@ -1,0 +1,27 @@
+Riviera-PRO 2020.04.130.7729(Linux64) 2020-11-28 02:11:15
+
+Elaboration top modules:
+Verilog Module                binding_module
+Verilog Module                tester
+
+
+---------------------------------------------------------------------------------------------
+Verilog Module          | Library | Info | Compiler Version      | Compilation Options
+---------------------------------------------------------------------------------------------
+binding_module          | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+tester                  | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+counter8b               | work    |      | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+counter_property        | work    | SVA  | 2020.04.130 (Linux64) | -timescale 1ns/1ns -sv2k9
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Library                 | Comment
+---------------------------------------------------------------------------------------------
+work                    | None
+---------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access+r
+
+
+The performance of simulation is reduced. Version EDU Edition

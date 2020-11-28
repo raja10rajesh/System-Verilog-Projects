@@ -1,0 +1,68 @@
+$date
+    Nov 28, 2020  02:10:07
+$end
+$version
+    TOOL:	xmsim	20.09-s003
+$end
+$timescale
+    1 ns
+$end
+
+$scope module tb_top $end
+
+$scope module i_intf $end
+$var reg       3 !    in [2:0] $end
+$var reg       8 "    out [7:0] $end
+$var reg       1 #    en $end
+$upscope $end
+
+
+$scope module DUT $end
+$var wire      3 $    in [2:0] $end
+$var wire      1 %    en  $end
+$var reg       8 &    out [7:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+bx !
+bx "
+x#
+bx $
+x%
+bx &
+$end
+#10
+1#
+b0 !
+b0 $
+1%
+b1 &
+b1 "
+#70
+b11 !
+b11 $
+b1000 &
+b1000 "
+#130
+0#
+b110 !
+b110 $
+0%
+b0 &
+b0 "
+#190
+1#
+b11 !
+b11 $
+1%
+b1000 &
+b1000 "
+#250
+b111 !
+b111 $
+b10000000 &
+b10000000 "
+#400

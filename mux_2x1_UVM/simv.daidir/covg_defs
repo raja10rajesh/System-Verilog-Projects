@@ -1,0 +1,123 @@
+global coverage_group 0 $unit::mux_coverage::mux_cov __coverage_mux_coverage.mux_cov unused_mux_coverage_mux_cov_loop_label $unit 0 1 0 1 $unit::/apps/vcsmx/vcs/Q-2020.03-SP1-1//etc/uvm-1.2/src/macros/uvm_callback_defines.svh::/apps/vcsmx/vcs/Q-2020.03-SP1-1//etc/uvm-1.2/src/macros/uvm_deprecated_defines.svh...@4233968273 0  ( 0 
+)
+ 1 1
+ 28 /home/runner/mux_coverage.sv
+ 12 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 133 _vcs_unit__4233968273_mux_coverage_11_0::_vcs_unit__4233968273_mux_coverage_11_0__vcs_unit__4233968273_mux_coverage_11_0_mux_cov_fn_5
+ 133 _vcs_unit__4233968273_mux_coverage_11_0::_vcs_unit__4233968273_mux_coverage_11_0__vcs_unit__4233968273_mux_coverage_11_0_mux_cov_fn_4
+0
+0
+0
+64
+0
+ 0
+
+3
+0
+2
+0
+ 6 sel_cp 15 0 0 0 0 0 131 _vcs_unit__4233968273_mux_coverage_11_0::_vcs_unit__4233968273_mux_coverage_11_0__vcs_unit__4233968273_mux_coverage_11_0_mux_cov_fn 131 _vcs_unit__4233968273_mux_coverage_11_0::_vcs_unit__4233968273_mux_coverage_11_0__vcs_unit__4233968273_mux_coverage_11_0_mux_cov_fn 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 7 select0 16 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 133 _vcs_unit__4233968273_mux_coverage_11_0::_vcs_unit__4233968273_mux_coverage_11_0__vcs_unit__4233968273_mux_coverage_11_0_mux_cov_fn_0 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 7 select1 17 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 133 _vcs_unit__4233968273_mux_coverage_11_0::_vcs_unit__4233968273_mux_coverage_11_0__vcs_unit__4233968273_mux_coverage_11_0_mux_cov_fn_1 0 0 0 0 0 0 0
+
+ 4 a_cp 20 0 0 0 0 0 133 _vcs_unit__4233968273_mux_coverage_11_0::_vcs_unit__4233968273_mux_coverage_11_0__vcs_unit__4233968273_mux_coverage_11_0_mux_cov_fn_2 133 _vcs_unit__4233968273_mux_coverage_11_0::_vcs_unit__4233968273_mux_coverage_11_0__vcs_unit__4233968273_mux_coverage_11_0_mux_cov_fn_2 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 2 a0 21 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 133 _vcs_unit__4233968273_mux_coverage_11_0::_vcs_unit__4233968273_mux_coverage_11_0__vcs_unit__4233968273_mux_coverage_11_0_mux_cov_fn_0 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 2 a1 22 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 133 _vcs_unit__4233968273_mux_coverage_11_0::_vcs_unit__4233968273_mux_coverage_11_0__vcs_unit__4233968273_mux_coverage_11_0_mux_cov_fn_1 0 0 0 0 0 0 0
+
+ 4 b_cp 25 0 0 0 0 0 133 _vcs_unit__4233968273_mux_coverage_11_0::_vcs_unit__4233968273_mux_coverage_11_0__vcs_unit__4233968273_mux_coverage_11_0_mux_cov_fn_3 133 _vcs_unit__4233968273_mux_coverage_11_0::_vcs_unit__4233968273_mux_coverage_11_0__vcs_unit__4233968273_mux_coverage_11_0_mux_cov_fn_3 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 2 1 0 0 1 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 1 1 2 b0 26 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 133 _vcs_unit__4233968273_mux_coverage_11_0::_vcs_unit__4233968273_mux_coverage_11_0__vcs_unit__4233968273_mux_coverage_11_0_mux_cov_fn_0 0 0 0 0 0 0 0
+ 1 1 0 0 1 1 2 b1 27 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 133 _vcs_unit__4233968273_mux_coverage_11_0::_vcs_unit__4233968273_mux_coverage_11_0__vcs_unit__4233968273_mux_coverage_11_0_mux_cov_fn_1 0 0 0 0 0 0 0
+
+ 7 sel_X_a 0 30 0 0 0 0 0 2 0 1 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 -1 0 0 1 1 5 valid 31 0 1 0 1 5 1 0 0 1 7 select1 0 0 0 0 0 1 0 1 1 2 a0 0 0 0 0 0 1 0 1 1 2 a1 0 0 0 0 0 0 1 0 0 0 0 0 0 0
+ 1 2 0 0 -1 0 0 1 1 7 invaild 32 0 2 0 1 5 1 0 0 1 7 select0 0 0 0 0 0 1 0 1 1 2 a0 0 0 0 0 0 1 0 1 1 2 a1 0 0 0 0 0 0 1 0 0 0 0 0 0 0
+
+ 7 sel_X_b 0 35 0 0 0 0 0 2 0 2 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2 1 1 0 0 -1 0 0 1 1 5 valid 36 0 1 0 1 5 1 0 0 1 7 select0 0 0 0 0 0 1 0 2 1 2 b0 0 0 0 0 0 1 0 2 1 2 b1 0 0 0 0 0 0 1 0 0 0 0 0 0 0
+ 1 2 0 0 -1 0 0 1 1 7 invaild 37 0 2 0 1 5 1 0 0 1 7 select1 0 0 0 0 0 1 0 2 1 2 b0 0 0 0 0 0 1 0 2 1 2 b1 0 0 0 0 0 0 1 0 0 0 0 0 0 0
+
+end_coverage_group

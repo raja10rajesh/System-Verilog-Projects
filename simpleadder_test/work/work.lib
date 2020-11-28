@@ -1,0 +1,29 @@
+timestamp=1606547721939
+
+[~A]
+LastVerilogToplevel=simpleadder
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*2413*3195
+
+[~MFT]
+0=4|0work.mgf|3195|0
+1=2|1work.mgf|374|0
+3=4|3work.mgf|1383|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2020.04.130 (Linux64)|00000054789c0dc7310e80200c00c0af7427b581cd5768f800416c622330b4c2fb65b8e1f093c6567265f0dd6801b419de1d9cf4728b3a1aa6644f56a6285358339ef1a059e5a2311bfa2d906901acb09a7c0a3fbf9c1c27|c73a565f2ade592f8ac1c68f484c92165c694032f997887746604589badfdc06
+
+[simpleadder]
+A/simpleadder=22|../simpleadder.v|1|1*374
+BinL64/simpleadder=3*174
+R=../simpleadder.v|1
+SLP=3*1383
+Version=2020.04.130 (Linux64)|00000054789c0dc7310e80200c00c0af7427b581cd5768f800416c622330b4c2fb65b8e1f093c6567265f0dd6801b419de1d9cf4728b3a1aa6644f56a6285358339ef1a059e5a2311bfa2d906901acb09a7c0a3fbf9c1c27|e172bdbfb93ac127c02f79bacdc7000b9a746006e4a5f58cf7cc6ac201ccdb4c42f6fe5599bdc12f33fcc4c77447c7eb
+
+[~U]
+$root=12|0*0|
+simpleadder=12|0*2182||0x10

@@ -1,0 +1,50 @@
+$date
+Sat Nov 28 02:09:04 2020
+$end
+$version
+Riviera-PRO Version 2020.04.130.7729
+$end
+$timescale
+1 ns
+$end
+
+$scope module tb_top $end
+
+$scope module i_intf $end
+$var reg 8 ! Y [7:0] $end
+$var reg 3 " out [2:0] $end
+$upscope $end
+
+
+$scope module t1 $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+bx !
+bx "
+$end
+#10
+b10011110 !
+b111 "
+#70
+b11010001 !
+#130
+b10110100 !
+#190
+b10101100 !
+#250
+b10011001 !
+#310
+b11110101 !
+#370
+b11110011 !
+#430
+b10111000 !
+#490
+b10111100 !
+#550
+b10101111 !
+#700

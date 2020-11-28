@@ -1,0 +1,133 @@
+xrun: 20.09-s003: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun	20.09-s003: Started on Nov 28, 2020 at 02:08:18 EST
+xrun
+	-Q
+	-unbuffered
+	-timescale 1ns/1ns
+	-sysv
+	-access +rw
+	-uvmnocdnsextra
+	-uvmhome /xcelium20.09/tools//methodology/UVM/CDNS-1.2/sv
+	/xcelium20.09/tools//methodology/UVM/CDNS-1.2/sv/src/uvm_macros.svh
+	design.sv
+	testbench.sv
+	Top level design units:
+		$unit_0x67f934e9
+		tbench_top
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+    if( !trans.randomize() ) $fatal("Gen:: trans randomization failed");
+                                                                     |
+xmelab: *W,STRINT (./generator.sv,25|69): String literal argument supplied to integer parameter.
+Loading snapshot worklib.tbench_top:sv .................... Done
+SVSEED default: 1
+xmsim: *W,RNDXCELON: A newer version of the SystemVerilog constraint solver is being used which has better support for array-solving, new solve-order mechanism, and seed stability enhancements..
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /xcelium20.09/tools/xcelium/files/xmsimrc
+xcelium> source /xcelium20.09/tools//methodology/UVM/CDNS-1.2/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+[ DRIVER ] ----- Reset Started -----
+[ DRIVER ] ----- Reset Ended   -----
+-------------------------
+- [ Generator ] 
+-------------------------
+- A = 10011011110011110111100, B = 111001010111000110000011000100
+- A = 0, B = 0
+-------------------------
+-------------------------
+- [ Generator ] 
+-------------------------
+- A = 11110000010110111110111100011, B = 100000010001001000110111011110
+- A = 0, B = 0
+-------------------------
+-------------------------
+- [ Generator ] 
+-------------------------
+- A = 111010011000010001000011111100, B = 1110111101110011001001111010110
+- A = 0, B = 0
+-------------------------
+-------------------------
+- [ Generator ] 
+-------------------------
+- A = 11100111101010010110100100111, B = 10001000000010011011011110001101
+- A = 0, B = 0
+-------------------------
+-------------------------
+- [ Driver ] 
+-------------------------
+- A = 10011011110011110111100, B = 111001010111000110000011000100
+- A = 0, B = 0
+-------------------------
+-------------------------
+- [ Monitor ] 
+-------------------------
+- A = 0, B = 0
+- A = 0, B = 0
+-------------------------
+Wrong Result
+-------------------------
+- [ Scoreboard ] 
+-------------------------
+- A = 0, B = 0
+- A = 0, B = 0
+-------------------------
+-------------------------
+- [ Driver ] 
+-------------------------
+- A = 11110000010110111110111100011, B = 100000010001001000110111011110
+- A = 0, B = 0
+-------------------------
+-------------------------
+- [ Monitor ] 
+-------------------------
+- A = 10011011110011110111100, B = 111001010111000110000011000100
+- A = 0, B = 0
+-------------------------
+Wrong Result
+-------------------------
+- [ Scoreboard ] 
+-------------------------
+- A = 10011011110011110111100, B = 111001010111000110000011000100
+- A = 0, B = 0
+-------------------------
+-------------------------
+- [ Driver ] 
+-------------------------
+- A = 111010011000010001000011111100, B = 1110111101110011001001111010110
+- A = 1110111101110011001001111010110, B = 0
+-------------------------
+-------------------------
+- [ Monitor ] 
+-------------------------
+- A = 11110000010110111110111100011, B = 100000010001001000110111011110
+- A = 1110111101110011001001111010110, B = 0
+-------------------------
+Wrong Result
+-------------------------
+- [ Scoreboard ] 
+-------------------------
+- A = 11110000010110111110111100011, B = 100000010001001000110111011110
+- A = 1110111101110011001001111010110, B = 0
+-------------------------
+-------------------------
+- [ Driver ] 
+-------------------------
+- A = 11100111101010010110100100111, B = 10001000000010011011011110001101
+- A = 1110111101110011001001111010110, B = 10001000000010011011011110001101
+-------------------------
+-------------------------
+- [ Monitor ] 
+-------------------------
+- A = 111010011000010001000011111100, B = 1110111101110011001001111010110
+- A = 1110111101110011001001111010110, B = 10001000000010011011011110001101
+-------------------------
+Result is as Expected
+-------------------------
+- [ Scoreboard ] 
+-------------------------
+- A = 111010011000010001000011111100, B = 1110111101110011001001111010110
+- A = 1110111101110011001001111010110, B = 10001000000010011011011110001101
+-------------------------
+Simulation complete via $finish(1) at time 125 NS + 2
+./environment.sv:63     $finish;
+xcelium> exit
+TOOL:	xrun	20.09-s003: Exiting on Nov 28, 2020 at 02:08:20 EST  (total: 00:00:02)
